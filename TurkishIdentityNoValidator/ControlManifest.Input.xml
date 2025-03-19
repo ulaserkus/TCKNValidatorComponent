@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest>
+  <control namespace="IdentityControl" constructor="TurkishIdentityNoValidator" version="0.0.4" display-name-key="TCKN Validator Component" description-key="Türk vatandaşlarının T.C. Kimlik Numaralarını doğrulamak için kullanılan bir PowerApps Component Framework (PCF) bileşeni. Bu bileşen, kullanıcıların girdiği T.C. Kimlik Numarası, isim, soyisim ve doğum yılı bilgilerini kontrol eder ve doğrular." control-type="standard">
+    <external-service-usage enabled="false" />
+    <property name="tckn" display-name-key="TCKN" description-key="Identity No" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="name" display-name-key="Name" description-key="Identity No" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="surname" display-name-key="Surname" description-key="Identity No" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="birthYear" display-name-key="Birth Year" description-key="Birth Year" of-type="SingleLine.Text" usage="bound" required="true" />
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+    <feature-usage>
+      <!-- <uses-feature name="Device.captureAudio" required="true" />
+      <uses-feature name="Device.captureImage" required="true" />
+      <uses-feature name="Device.captureVideo" required="true" />
+      <uses-feature name="Device.getBarcodeValue" required="true" />
+      <uses-feature name="Device.getCurrentPosition" required="true" />
+      <uses-feature name="Device.pickFile" required="true" />
+      <uses-feature name="Utility" required="true" /> -->
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
