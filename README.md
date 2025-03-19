@@ -14,3 +14,4 @@ This repository contains a PowerApps Component Framework (PCF) component for val
 - Click Import and select the generated zip file.
 - Follow the prompts to complete the import process.
   
+![component](https://github.com/user-attachments/assets/3252f288-190a-4c88-9c2c-ef3005efa9e9)
