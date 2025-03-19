@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35728.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{053125B9-A181-4EE4-A8E8-56911F64B47C}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdentityValidator.Plugin", "IdentityValidator.Plugin\IdentityValidator.Plugin.csproj", "{AEE93832-6AC5-4A6B-9C47-AF724173D3A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{DE61AEE8-0BF8-4254-819D-73E65BD849E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEE93832-6AC5-4A6B-9C47-AF724173D3A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEE93832-6AC5-4A6B-9C47-AF724173D3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEE93832-6AC5-4A6B-9C47-AF724173D3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEE93832-6AC5-4A6B-9C47-AF724173D3A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEE93832-6AC5-4A6B-9C47-AF724173D3A5} = {DE61AEE8-0BF8-4254-819D-73E65BD849E3}
+		{DE61AEE8-0BF8-4254-819D-73E65BD849E3} = {053125B9-A181-4EE4-A8E8-56911F64B47C}
+	EndGlobalSection
+EndGlobal
